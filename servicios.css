@@ -87,21 +87,33 @@ font-size: 50px;
   text-underline-offset:11px ;
 }
 
+<<<<<<< HEAD
+=======
 a {
     text-decoration: none;
     color:#e0e5e9;
     
  }
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
  
   header li a:hover{
     border: none;
     background-color: #434343;
     color: #ddd;
+<<<<<<< HEAD
+    border-radius: 5px;
+    position: relative;
+    transition: all 420ms ease;
+ }  
+ 
+ a{text-decoration: none;}
+=======
     padding: 10px;
     border-radius: 5px;
     position: relative;
     transition: all 420ms ease;
  }    
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
 
  #services{
     text-align: center;

@@ -152,20 +152,33 @@ body{
   text-decoration: #4158D0 underline;
   text-underline-offset:11px ;
 }
+<<<<<<< HEAD
+
+=======
 a {
     text-decoration: none;
     
     
  }
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
  header li a:hover{
     border: none;
     background: #434343;
     color: #fff;
+<<<<<<< HEAD
+    border-radius: 5px;
+    position: relative;
+    transition: all 420ms ease;
+ }   
+ 
+ a{text-decoration: none;}
+=======
     padding: 10px;
     border-radius: 5px;
     position: relative;
     transition: all 420ms ease;
  }    
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
 
 #intr{
     border-top: #434343 1px solid;
@@ -184,6 +197,10 @@ a {
     letter-spacing: 8px;
     color: #ddd;
     margin: 0;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
          
         
 }

@@ -22,6 +22,15 @@ body{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+.tl{
+    display: flex;
+    justify-content: center;
+    color: #ddd;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+=======
 .gallery{
     background-color: #111111;
     border-top: #434343 1px solid;
@@ -44,12 +53,127 @@ body{
     color: #ddd;
     padding-right: 10%;
     padding-top: 10%;
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
     line-height: 0.8;
     font-size: 520%;
     letter-spacing: 8px;
     text-transform:uppercase;
     color: #ddd;
 }
+<<<<<<< HEAD
+
+.gallery{
+    background-color: #111111;
+    border-top: #434343 1px solid;
+    
+}
+.glry-lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    background: rgba(0, 0,0, .5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0,1);
+    transform-origin: left;
+    transition: transform ease-in-out 250ms;
+}
+
+.glry-lightbox:target{
+    transform: scale(1,1);
+    transform-origin: right;
+}
+
+.glry-lightbox-content{
+    width: 75%;
+    background: #111111;
+    padding: 1em;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background:red ;
+    top: -1em;
+    right: -1em;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close:after{
+    content: "X";
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    max-width: 100%;
+    height: 200px;
+}
+.glry-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(17em,1fr));
+    gap: 5em;
+    padding: 5em;
+    background-color:#111111;
+}
+
+.glry-content{
+    padding: 20px;
+    background-color: #111111;
+    color: #ddd;
+    border-left: #ddd 1px solid;
+    border-right: #ddd 1px solid;
+}
+
+.img-description{
+    padding: 1.5em;
+}
+
+.img-btn{
+ outline: none;
+ cursor: pointer;
+ border: none;
+ padding: 10px;
+ margin: 0;
+ font-family: inherit;
+ font-size: inherit;
+ position: relative;
+ display: inline-block;
+ letter-spacing: 0.05rem;
+ font-weight: 700;
+ font-size: 17px;
+ border-radius: 500px;
+ overflow: hidden;
+ background-color: #111111;
+ color: #ddd;
+}
+.img-titl{
+    font-size: 1.5em;
+    margin-top: 0;
+}
+.glry-content:hover{
+  background-color: #ddd;
+  transition: 200ms;
+  color: #111111;
+}
+.img-btn:hover{
+    color: #ddd;
+}
+=======
 .grid-container img{
     margin-top: 20px;
     display: flex;
@@ -150,6 +274,7 @@ body{
     color:#111111
 }
 
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
 .fter-container {
     position: absolute;
     height: 400px;
@@ -167,22 +292,34 @@ body{
   text-underline-offset:11px ;
 }
 
+<<<<<<< HEAD
+=======
 a {
     text-decoration: none;
     color:#e0e5e9;
     
  }
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
  
   header li a:hover{
     border: none;
     background: #434343;
     color: #fff;
+<<<<<<< HEAD
+=======
     padding: 10px;
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
     border-radius: 5px;
     position: relative;
     transition: all 420ms ease;
  }    
+<<<<<<< HEAD
+a{
+    text-decoration: none;
+}
+=======
 
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
  @media screen and (max-width:1280px){
     .gallery{
         width: 100%;
@@ -192,6 +329,8 @@ a {
        font-size: 200%;
        
     }
+<<<<<<< HEAD
+=======
     .gl2{
         display: block;
         padding-left: 0%;
@@ -275,6 +414,7 @@ a {
     .glh2{display: block;
         padding-left: 0%;
     }
+>>>>>>> af995167973a53ea2fc2446794e47d8882698c05
     .dots{
         display: grid;
         grid-template-columns: 1fr 1fr;
