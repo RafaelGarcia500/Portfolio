@@ -21,55 +21,16 @@ body{
     list-style-type: none;
     text-decoration: none;
 }
-
+.ph{
+    color: #ddd;
+}
 .services{
-    border-top: #434343 1px solid;
+    padding-bottom: 90px;
     height: 100%;
     width: 100%;
     background-color: #111111;
 }
 
-.spn-srv{
-    padding-left: 22%;
-    font-size: 20px;
-    color: #e0e5e9;
-    text-decoration: underline 1px;
-    text-underline-position: under ;
-    text-underline-offset: 7px;
-}
-.srv-container{
-    border-radius: 5px;
-    height: 100%;
-    width: 100%;
-    padding: 100px;
-    gap: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.srv-sct{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    border-radius: 15px;
-    height: 100%;
-    width: 100%;
-    background-color: #e0e5e9;
-    padding: 80px;
-    text-decoration: underline;
-    text-underline-position: under ;
-    text-underline-offset: 7px;
-}
-.srv-sct h3{
-font-size: 50px;
-}
-.srv-sct li{
-    padding: 20px;
-}
-.srv-sct ul{
-    padding-top: 30px;
-}
 
 .fter-container {
     position: absolute;
